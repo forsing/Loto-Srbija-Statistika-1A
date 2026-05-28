@@ -1,0 +1,11 @@
+
+--- 28.05.2026_10.47.27 (seed=39, N=4622, mode=A, top_pool=15, sigma=2.0) ---
+DTR: raw=[8, 13, 16, 23, 31, 34, 37] (suma=162, neparnih=4/7, niskih(≤19)=3/7, raspon=29); 
+rerank_A=[8, 13, 16, 23, 31, 34, 37] (suma=162, neparnih=4/7, niskih(≤19)=3/7, raspon=29); raw_hits=1.480; rerank_hits=1.480; AUC=0.506; LRAP=0.254; passed=5243
+RFR: raw=[7, 8, 23, 26, 27, 32, 35] (suma=158, neparnih=4/7, niskih(≤19)=2/7, raspon=28); 
+rerank_A=[7, 8, 23, 26, 27, 32, 35] (suma=158, neparnih=4/7, niskih(≤19)=2/7, raspon=28); raw_hits=1.170; rerank_hits=1.160; AUC=0.492; LRAP=0.245; passed=4866
+XGB: raw=[2, 7, 23, 28, 30, 32, 37] (suma=159, neparnih=3/7, niskih(≤19)=2/7, raspon=35); 
+rerank_A=[2, 7, 23, 28, 30, 32, 37] (suma=159, neparnih=3/7, niskih(≤19)=2/7, raspon=35); raw_hits=1.140; rerank_hits=1.160; AUC=0.498; LRAP=0.239; passed=5909
+bounds={'suma': (85.2285, 195.791), 'neparnih': (1.1927, 5.9921), 'niskih': (0.9483, 5.8206), 'raspon': (19.5891, 40.2577)}
+plot=/Users/4c/Desktop/GHQ/KvantniRegresor/0_4_SkewnessKurtosis_A.png
+ukupno_vreme=0:01:36  (96.0 s)
