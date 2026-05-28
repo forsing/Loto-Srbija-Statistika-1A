@@ -62,9 +62,9 @@ random.seed(SEED)
 # ============================================================
 # Konfiguracija
 # ============================================================
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7_4622_k42.csv"
-OUT_TXT = "/Users/4c/Desktop/GHQ/KvantniRegresor/0_4_StatsRerank_A_predikcija.txt"
-PLOT_PATH = "/Users/4c/Desktop/GHQ/KvantniRegresor/0_4_SkewnessKurtosis_A.png"
+CSV_PATH = "/data/loto7_4622_k42.csv"
+OUT_TXT = "/0_4_StatsRerank_A_predikcija.txt"
+PLOT_PATH = "/0_4_SkewnessKurtosis_A.png"
 
 N_MIN, N_MAX = 1, 39
 K = 7
@@ -387,7 +387,7 @@ plt.show()
 
 🔁 0_4_StatsRerank_A — start  28.05.2026_10.35.52
 
-✅ CSV učitan: /Users/4c/Desktop/GHQ/data/loto7_4622_k42.csv
+✅ CSV učitan: /data/loto7_4622_k42.csv
    broj izvlačenja: 4622, brojeva po kolu: 7
 
 📐 Mod A granice (mean ± 2σ):
@@ -403,14 +403,14 @@ plt.show()
 
 📊 Tabela rezultata — mod A (tvrdi filter)
 model raw_pick                        rerank_A                         raw_h    A_h     AUC    LRAP   pass
-DTR   [8, 13, 16, 23, 31, 34, 37]     [8, 13, 16, 23, 31, 34, 37]      1.480  1.480   0.506   0.254   5243
-RFR   [7, 8, 23, 26, 27, 32, 35]      [7, 8, 23, 26, 27, 32, 35]       1.170  1.160   0.492   0.245   4866
-XGB   [2, 7, 23, 28, 30, 32, 37]      [2, 7, 23, 28, 30, 32, 37]       1.140  1.160   0.498   0.239   5909
+DTR   [8, x, 16, y, 31, z, 37]      [8, x, 16, y, 31, z, 37]      1.480  1.480   0.506   0.254   5243
+RFR   [7, x, 23, y, 27, z, 35]      [7, x, 23, y, 27, z, 35]       1.170  1.160   0.492   0.245   4866
+XGB   [2, x, 23, y, 30, z, 37]      [2, x, 23, y, 30, z, 37]       1.140  1.160   0.498   0.239   5909
 
 (slučajan baseline ≈ 1.256 hits/7)
 
-📝 Snimljeno u: /Users/4c/Desktop/GHQ/KvantniRegresor/0_4_StatsRerank_A_predikcija.txt
-🖼️  Plot snimljen u: /Users/4c/Desktop/GHQ/KvantniRegresor/0_4_SkewnessKurtosis_A.png
+📝 Snimljeno u: /0_4_StatsRerank_A_predikcija.txt
+🖼️  Plot snimljen u: /0_4_SkewnessKurtosis_A.png
 
 🔁 0_4_StatsRerank_A — stop  28.05.2026_10.37.26
 ⏱️  Ukupno vreme: 0:01:33  (93.3 s)
